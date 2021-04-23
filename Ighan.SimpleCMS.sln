@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31220.234
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ighan.SimpleCMS.StorageModels", "Ighan.SimpleCMS.StorageModels\Ighan.SimpleCMS.StorageModels.csproj", "{A29BA697-CCEA-4FAA-92E4-1654CD7D59C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ighan.SimpleCMS.DataAccessLayer", "Ighan.SimpleCMS.DataAccessLayer\Ighan.SimpleCMS.DataAccessLayer.csproj", "{398AD83E-C55E-499A-8CCF-F9DC5BA70E4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ighan.SimpleCMS.WebUI", "Ighan.SimpleCMS.WebUI\Ighan.SimpleCMS.WebUI.csproj", "{9E3C8667-55A9-4E58-B76B-4060715D29BC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A29BA697-CCEA-4FAA-92E4-1654CD7D59C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29BA697-CCEA-4FAA-92E4-1654CD7D59C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29BA697-CCEA-4FAA-92E4-1654CD7D59C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29BA697-CCEA-4FAA-92E4-1654CD7D59C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398AD83E-C55E-499A-8CCF-F9DC5BA70E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398AD83E-C55E-499A-8CCF-F9DC5BA70E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398AD83E-C55E-499A-8CCF-F9DC5BA70E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398AD83E-C55E-499A-8CCF-F9DC5BA70E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3C8667-55A9-4E58-B76B-4060715D29BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3C8667-55A9-4E58-B76B-4060715D29BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3C8667-55A9-4E58-B76B-4060715D29BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3C8667-55A9-4E58-B76B-4060715D29BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
