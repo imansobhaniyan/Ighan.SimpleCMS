@@ -6,6 +6,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\fonts\IRANSansWeb%28FaNum%29.woff2" />
+    <None Include="wwwroot\fonts\IRANSansWeb%28FaNum%29_Black.woff2" />
+    <None Include="wwwroot\fonts\IRANSansWeb%28FaNum%29_Bold.woff2" />
+    <None Include="wwwroot\fonts\IRANSansWeb%28FaNum%29_Light.woff2" />
+    <None Include="wwwroot\fonts\IRANSansWeb%28FaNum%29_Medium.woff2" />
+    <None Include="wwwroot\fonts\IRANSansWeb%28FaNum%29_UltraLight.woff2" />
+    <None Include="wwwroot\fonts\nunito\Descr.WD3" />
+    <None Include="wwwroot\fonts\nunito\nunito-bold.eot%40" />
+    <None Include="wwwroot\fonts\nunito\nunito-bold.svg" />
+    <None Include="wwwroot\fonts\nunito\nunito-bold.woff2" />
+    <None Include="wwwroot\fonts\nunito\nunito-regular%40" />
+    <None Include="wwwroot\fonts\nunito\nunito-regular.svg" />
+    <None Include="wwwroot\fonts\nunito\nunito-regular.woff2" />
+    <None Include="wwwroot\fonts\nunito\nunito-semibold.eot%40" />
+    <None Include="wwwroot\fonts\nunito\nunito-semibold.svg" />
+    <None Include="wwwroot\fonts\nunito\nunito-semibold.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Ighan.DbHelpers" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.0-preview.2.21154.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0-preview.3.21201.2" />
@@ -23,11 +42,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Ighan.SimpleCMS.DataAccessLayer\Ighan.SimpleCMS.DataAccessLayer.csproj" />
     <ProjectReference Include="..\Ighan.SimpleCMS.StorageModels\Ighan.SimpleCMS.StorageModels.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>
